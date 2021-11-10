@@ -1,2 +1,1 @@
 # JiraTooltip-ChromeExtension
-Test
