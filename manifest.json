@@ -1,0 +1,34 @@
+{
+    "name": "Jira Tooltip",
+    "short_name": "JiraTooltip",
+    "author": "Gray Software Consulting",
+    "version": "1.0.0",
+    "description": "Creates a tooltip containing key Jira user story information for linked story IDs",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/16-icon.png",
+            "32": "images/32-icon.png",
+            "48": "images/48-icon.png",
+            "128": "images/128-icon.png"
+        },
+        "default_title": "Jira Tooltips Extension"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "images/16-icon.png",
+        "32": "images/32-icon.png",
+        "48": "images/48-icon.png",
+        "128": "images/128-icon.png"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage",
+        "webNavigation"
+    ]
+}
